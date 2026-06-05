@@ -18,11 +18,11 @@ const About = () => {
 
   const aboutJson = {
     name: "Muhammad Umair",
-    role: "BS Software Engineering Student & Frontend Developer",
-    education: "BS Software Engineering (PAF-IAST) — CGPA 3.41",
-    location: "Peshawar, Pakistan",
-    passions: ["MERN Stack", "UI/UX", "Web Performance"],
-    bio: "I build full-stack web applications with a focus on user-centered frontend experiences. Experienced with React, Node.js, and modern tooling; seeking opportunities to contribute to real-world projects."
+    role: "BS Software Engineering Student & MERN Stack Developer",
+    education: "BS Software Engineering (PAF-IAST) — CGPA 3.41 / 4.0 (Top 15%)",
+    location: "Peshawar, Khyber Pakhtunkhwa, Pakistan",
+    passions: ["MERN Stack", "Full-Stack Development", "Software Engineering"],
+    bio: "BS Software Engineering student (5th semester) at PAF-IAST with hands-on experience in full-stack web development using the MERN stack. Seeking an IT-related position in a government or semi-government organisation to contribute and grow."
   };
 
   return (

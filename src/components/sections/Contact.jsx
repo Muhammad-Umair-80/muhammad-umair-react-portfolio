@@ -64,9 +64,9 @@ const Contact = () => {
   };
 
   const contactInfo = [
-    { icon: Mail, title: 'Email', value: 'muhammad.umair@example.com', href: 'mailto:muhammad.umair@example.com' },
-    { icon: Phone, title: 'Phone', value: '+92 123 456 7890', href: 'tel:+921234567890' },
-    { icon: MapPin, title: 'Location', value: 'Pakistan', href: '#' }
+    { icon: Mail, title: 'Email', value: '44muhammadumair@gmail.com', href: 'mailto:44muhammadumair@gmail.com' },
+    { icon: Phone, title: 'Phone', value: '03138811653', href: 'tel:03138811653' },
+    { icon: MapPin, title: 'Location', value: 'Peshawar, Khyber Pakhtunkhwa, Pakistan', href: '#' }
   ];
 
   return (

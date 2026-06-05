@@ -22,22 +22,22 @@ const Experience = () => {
       title: 'Head of Media',
       organization: 'Confiniti Student Society, PAF-IAST',
       period: '2024 - Present',
-      description: 'Managed digital media campaigns, content creation, and promotional materials for university events.',
+      description: 'Managed digital media campaigns and social media content for society events.',
       achievements: [
-        'Led social media strategy to increase engagement',
-        'Coordinated content production for campus events'
+        'Increased online engagement through targeted social media strategies',
+        'Coordinated content creation and promotional material for university events'
       ],
       tag: 'leadership'
     },
     {
       hash: 'e4f5g6h',
       title: 'Independent Web Developer',
-      organization: 'Freelance / Personal Projects',
+      organization: 'Self-Directed Project Work',
       period: '2023 - Present',
-      description: 'Design and development of full-stack web applications, including SecondShelf and SkillSwap.',
+      description: 'Designed and developed SecondShelf end-to-end, handling both frontend and backend.',
       achievements: [
-        'Built end-to-end projects using MERN stack',
-        'Implemented JWT auth, image uploads, and admin panels'
+        'Practising full-stack development through personal and academic projects',
+        'Refined software development flow from prototyping to deployment'
       ],
       tag: 'freelance'
     },
@@ -45,11 +45,11 @@ const Experience = () => {
       hash: 'z9y8x7w',
       title: 'Event Organiser',
       organization: 'First Aid Awareness Initiative (Rescue 1122 Collaboration)',
-      period: '2023',
-      description: 'Co-organised public safety seminars and managed logistics for events with 200+ participants.',
+      period: '2024',
+      description: 'Co-organised First Aid awareness seminars in collaboration with Rescue 1122.',
       achievements: [
-        'Organised seminars reaching 200+ attendees',
-        'Managed event logistics and coordination'
+        'Managed logistics and coordination for events with 200+ participants',
+        'Promoted community health education and public safety awareness'
       ],
       tag: 'community'
     }

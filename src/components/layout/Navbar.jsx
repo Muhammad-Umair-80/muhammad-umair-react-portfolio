@@ -25,9 +25,9 @@ const Navbar = () => {
   ];
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: Mail, href: 'mailto:umair@example.com', label: 'Email' },
+    { icon: Github, href: 'https://github.com/Muhammad-Umair-80', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://linkedin.com/in/muhammad-umair-3a1737363', label: 'LinkedIn' },
+    { icon: Mail, href: 'mailto:44muhammadumair@gmail.com', label: 'Email' },
   ];
 
   return (
@@ -72,7 +72,7 @@ const Navbar = () => {
               </a>
             ))}
             <a
-              href="/Muhammad_Umair_Resume%20(2).pdf"
+              href="/Muhammad_Umair_Resume.pdf"
               download="Muhammad_Umair_Resume.pdf"
               className="text-muted hover:text-accent transition-colors duration-200 flex items-center gap-2 text-sm"
               aria-label="Download Resume"
@@ -120,7 +120,7 @@ const Navbar = () => {
                   </a>
                 ))}
                 <a
-                  href="/Muhammad_Umair_Resume%20(2).pdf"
+                  href="/Muhammad_Umair_Resume.pdf"
                   download="Muhammad_Umair_Resume.pdf"
                   className="text-muted hover:text-accent transition-colors duration-200 flex items-center gap-2"
                   aria-label="Download Resume"

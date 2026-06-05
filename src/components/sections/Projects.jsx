@@ -18,27 +18,27 @@ const Projects = () => {
 
   const projects = [
     {
-      title: 'SecondShelf - Book Exchange Platform',
-      description: 'Community platform for listing, searching, and exchanging second-hand books. Includes JWT auth, image uploads, admin panel, and search.',
-      tech: ['React', 'Node.js', 'Express', 'MongoDB', 'TailwindCSS'],
+      title: 'SecondShelf — Full-Stack Book Exchange Platform',
+      description: 'Community-based platform for listing, searching, and exchanging second-hand books. Implemented JWT-based authentication, image uploads, admin panel, and book search system. Built with Node.js / Express.js backend and React frontend; deployed on Vercel.',
+      tech: ['React', 'Node.js', 'Express.js', 'MongoDB', 'TailwindCSS'],
       github: 'https://github.com/Muhammad-Umair-80/Booksexchange-website',
       demo: null,
       stars: 0,
       forks: 0
     },
     {
-      title: 'SkillSwap - MERN Skill Exchange',
-      description: 'Peer-to-peer skill-sharing application built with the MERN stack.',
-      tech: ['React', 'Node.js', 'Express', 'MongoDB'],
+      title: 'SkillSwap — MERN Stack Skill Exchange Platform',
+      description: 'Peer-to-peer skill-sharing application using MongoDB, Express.js, React, and Node.js.',
+      tech: ['React', 'Node.js', 'Express.js', 'MongoDB'],
       github: 'https://github.com/Muhammad-Umair-80/SkillSwap',
       demo: null,
       stars: 0,
       forks: 0
     },
     {
-      title: 'Restaurant Cafe - Responsive Frontend',
-      description: 'Responsive frontend showcasing modern UI patterns, built with React and Vite.',
-      tech: ['React', 'Vite', 'TailwindCSS'],
+      title: 'Restaurant Cafe — Responsive Frontend Application',
+      description: 'React + Vite project with a fully responsive UI showcasing modern frontend practices.',
+      tech: ['React', 'Vite', 'Tailwind CSS'],
       github: 'https://github.com/Muhammad-Umair-80/Resturant-Cafe',
       demo: null,
       stars: 0,

@@ -4,7 +4,7 @@ import { Github, Linkedin, Mail, Download, Terminal, Play, FolderOpen, User } fr
 
 const Hero = () => {
   const [displayText, setDisplayText] = useState('');
-  const fullText = 'BS Software Engineering Student & Frontend Developer';
+  const fullText = 'BS Software Engineering Student & Full-Stack Developer';
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
@@ -75,9 +75,9 @@ const Hero = () => {
             {/* Code lines */}
             <motion.div variants={itemVariants} className="bg-primary/40 rounded p-4 border border-border text-muted">
               <div className="flex text-blue-400 gap-2"><span className="text-gray-500">1</span> <span>/**</span></div>
-              <div className="flex text-blue-400 gap-2"><span className="text-gray-500">2</span> <span> * Passionate about creating beautiful, functional,</span></div>
-              <div className="flex text-blue-400 gap-2"><span className="text-gray-500">3</span> <span> * and user-centered digital experiences representing</span></div>
-              <div className="flex text-blue-400 gap-2"><span className="text-gray-500">4</span> <span> * modern frontend technologies.</span></div>
+              <div className="flex text-blue-400 gap-2"><span className="text-gray-500">2</span> <span> * BS Software Engineering student at PAF-IAST.</span></div>
+              <div className="flex text-blue-400 gap-2"><span className="text-gray-500">3</span> <span> * Specialized in MERN stack web development,</span></div>
+              <div className="flex text-blue-400 gap-2"><span className="text-gray-500">4</span> <span> * building responsive & real-world applications.</span></div>
               <div className="flex text-blue-400 gap-2"><span className="text-gray-500">5</span> <span> */</span></div>
             </motion.div>
             
@@ -88,7 +88,7 @@ const Hero = () => {
               <a href="#projects" className="btn flex items-center justify-center gap-2">
                 <FolderOpen size={18} /> View Projects
               </a>
-              <a href="/resume.pdf" download className="btn-secondary flex items-center justify-center gap-2">
+              <a href="/Muhammad_Umair_Resume.pdf" download="Muhammad_Umair_Resume.pdf" className="btn-secondary flex items-center justify-center gap-2">
                 <Download size={18} /> export resume.pdf
               </a>
               <a href="#contact" className="btn-secondary flex items-center justify-center gap-2">
@@ -99,9 +99,9 @@ const Hero = () => {
             <motion.div variants={itemVariants} className="flex items-center gap-4 pt-2 border-t border-border/50">
               <span className="text-muted">Links:</span>
               {[
-                { icon: Github, href: 'https://github.com', label: 'GitHub' },
-                { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-                { icon: Mail, href: 'mailto:umair@example.com', label: 'Email' },
+                { icon: Github, href: 'https://github.com/Muhammad-Umair-80', label: 'GitHub' },
+                { icon: Linkedin, href: 'https://linkedin.com/in/muhammad-umair-3a1737363', label: 'LinkedIn' },
+                { icon: Mail, href: 'mailto:44muhammadumair@gmail.com', label: 'Email' },
               ].map((social) => (
                 <a
                   key={social.label}

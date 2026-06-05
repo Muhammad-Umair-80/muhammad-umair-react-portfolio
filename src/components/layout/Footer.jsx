@@ -14,9 +14,9 @@ const Footer = () => {
   }, []);
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com', label: 'github' },
-    { icon: Linkedin, href: 'https://linkedin.com', label: 'linkedin' },
-    { icon: Mail, href: 'mailto:muhammad.umair@example.com', label: 'email' },
+    { icon: Github, href: 'https://github.com/Muhammad-Umair-80', label: 'github' },
+    { icon: Linkedin, href: 'https://linkedin.com/in/muhammad-umair-3a1737363', label: 'linkedin' },
+    { icon: Mail, href: 'mailto:44muhammadumair@gmail.com', label: 'email' },
   ];
 
   return (
