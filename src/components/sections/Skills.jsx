@@ -16,14 +16,18 @@ const Skills = () => {
   };
 
   const skills = [
-    { name: 'HTML', level: 95, color: 'text-orange-500' },
-    { name: 'CSS', level: 90, color: 'text-blue-500' },
-    { name: 'JavaScript', level: 85, color: 'text-yellow-400' },
-    { name: 'React', level: 88, color: 'text-cyan-400' },
-    { name: 'Tailwind CSS', level: 92, color: 'text-teal-400' },
-    { name: 'C++', level: 80, color: 'text-purple-500' },
+    { name: 'HTML & CSS', level: 95, color: 'text-orange-500' },
+    { name: 'JavaScript', level: 92, color: 'text-yellow-400' },
+    { name: 'React', level: 80, color: 'text-cyan-400' },
+    { name: 'Next.js', level: 72, color: 'text-sky-400' },
+    { name: 'Tailwind CSS', level: 60, color: 'text-teal-400' },
+    { name: 'C++', level: 90, color: 'text-purple-500' },
+    { name: 'Node.js', level: 78, color: 'text-green-400' },
     { name: 'MySQL', level: 75, color: 'text-indigo-400' },
-    { name: 'Git & GitHub', level: 85, color: 'text-gray-400' },
+    { name: 'Git & GitHub', level: 88, color: 'text-gray-400' },
+    { name: 'Python', level: 65, color: 'text-blue-600' },
+    { name: 'Docker', level: 40, color: 'text-gray-500' },
+    { name: 'Linux', level: 40, color: 'text-gray-500' },
   ];
 
   const renderProgressBar = (level) => {
@@ -86,8 +90,8 @@ const Skills = () => {
               className="flex flex-wrap gap-3 bg-primary p-6 rounded-lg border border-border"
             >
               {[
-                'Node.js', 'Express.js', 'MongoDB', 'Firebase', 'Vite', 'Webpack',
-                'TypeScript', 'SASS', 'Bootstrap', 'Material-UI', 'Figma', 'Adobe XD'
+                'Express.js', 'MongoDB', 'PostgreSQL', 'Firebase', 'Vite', 'Webpack',
+                'TypeScript', 'SASS', 'Bootstrap', 'Material-UI', 'Figma'
               ].map((tech) => (
                 <span
                   key={tech}

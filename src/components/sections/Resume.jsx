@@ -38,7 +38,7 @@ const Resume = () => {
                 <span>resume.md - vi</span>
               </div>
               <a 
-                href="/resume.pdf" 
+                href="/Muhammad_Umair_Resume%20(2).pdf" 
                 download="Muhammad_Umair_Resume.pdf"
                 className="flex items-center gap-1 text-accent hover:text-white transition-colors"
                 title="Download PDF"
@@ -49,28 +49,28 @@ const Resume = () => {
 
             <div className="p-6 md:p-8 text-gray-300 text-sm md:text-base leading-relaxed overflow-x-auto">
               <div className="text-accent mb-4 font-bold text-xl"># Muhammad Umair</div>
-              <div className="text-muted italic mb-6">&gt; BS Software Engineering Student &amp; Frontend Developer</div>
+              <div className="text-muted italic mb-6">&gt; BS Software Engineering Student (PAF-IAST) • Frontend & Full-stack developer</div>
               
-              <div className="text-blue-400 font-bold mt-6 mb-2">## Technical Skills</div>
+              <div className="text-blue-400 font-bold mt-6 mb-2">## Snapshot</div>
               <ul className="list-none space-y-1 mb-6">
-                <li><span className="text-accent">-</span> <span className="text-white font-semibold">Frontend:</span> React, JavaScript, HTML5, CSS3, Tailwind CSS</li>
-                <li><span className="text-accent">-</span> <span className="text-white font-semibold">Backend:</span> Node.js, Express.js, MySQL, MongoDB</li>
-                <li><span className="text-accent">-</span> <span className="text-white font-semibold">Tools:</span> Git, GitHub, VS Code, Figma</li>
-                <li><span className="text-accent">-</span> <span className="text-white font-semibold">Languages:</span> C++, JavaScript, Python</li>
+                <li><span className="text-accent">-</span> <span className="text-white font-semibold">Education:</span> BS Software Engineering — PAF-IAST (CGPA 3.41)</li>
+                <li><span className="text-accent">-</span> <span className="text-white font-semibold">Location:</span> Peshawar, Pakistan</li>
+                <li><span className="text-accent">-</span> <span className="text-white font-semibold">Seeking:</span> IT role in government / semi-government organizations</li>
               </ul>
 
-              <div className="text-blue-400 font-bold mt-6 mb-2">## Education</div>
+              <div className="text-blue-400 font-bold mt-6 mb-2">## Core Skills</div>
               <ul className="list-none space-y-1 mb-6">
-                <li><span className="text-accent">-</span> <span className="text-white font-semibold">Degree:</span> BS Software Engineering (2022-Present)</li>
-                <li><span className="text-accent">-</span> <span className="text-white font-semibold">Relevant Coursework:</span> Data Structures, Algorithms, Web Development</li>
-                <li><span className="text-accent">-</span> <span className="text-white font-semibold">GPA:</span> 3.5+ (Expected Graduation: 2026)</li>
+                <li><span className="text-accent">-</span> <span className="text-white font-semibold">Frontend:</span> HTML, CSS, React, Next.js, Tailwind CSS</li>
+                <li><span className="text-accent">-</span> <span className="text-white font-semibold">Backend:</span> Node.js, Express.js</li>
+                <li><span className="text-accent">-</span> <span className="text-white font-semibold">Databases:</span> MySQL, MongoDB, PostgreSQL</li>
+                <li><span className="text-accent">-</span> <span className="text-white font-semibold">Languages & Tools:</span> JavaScript, C++, Python, Git, Docker, VS Code</li>
               </ul>
 
-              <div className="text-blue-400 font-bold mt-6 mb-2">## Top Projects</div>
+              <div className="text-blue-400 font-bold mt-6 mb-2">## Selected Projects</div>
               <ul className="list-none space-y-1 mb-8">
-                <li><span className="text-accent">-</span> SecondShelf - Book Exchange Platform</li>
-                <li><span className="text-accent">-</span> Library Management System</li>
-                <li><span className="text-accent">-</span> C++ Book Information Chatbot</li>
+                <li><span className="text-accent">-</span> SecondShelf — Community book exchange (MERN)</li>
+                <li><span className="text-accent">-</span> SkillSwap — MERN skill-exchange platform</li>
+                <li><span className="text-accent">-</span> Restaurant Cafe — Responsive React frontend</li>
               </ul>
 
               {/* Vim style footer */}

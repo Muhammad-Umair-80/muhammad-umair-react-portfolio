@@ -18,56 +18,40 @@ const Experience = () => {
 
   const experiences = [
     {
-      hash: 'a7b8e9c',
-      title: 'BS Software Engineering',
-      organization: 'Current Institution',
-      period: '2022 - Present',
-      description: 'Pursuing Bachelor\'s degree in Software Engineering with focus on modern development practices, algorithms, and system design.',
+      hash: 'a1b2c3d',
+      title: 'Head of Media',
+      organization: 'Confiniti Student Society, PAF-IAST',
+      period: '2024 - Present',
+      description: 'Managed digital media campaigns, content creation, and promotional materials for university events.',
       achievements: [
-        'Maintained GPA above 3.5',
-        'Completed advanced coursework in Data Structures and Algorithms',
-        'Active participant in coding competitions and hackathons'
+        'Led social media strategy to increase engagement',
+        'Coordinated content production for campus events'
       ],
-      tag: 'HEAD -> main, education'
+      tag: 'leadership'
     },
     {
-      hash: 'f1e2d3c',
-      title: 'Frontend Development Bootcamp',
-      organization: 'Self-Directed Learning',
-      period: '2023 - 2024',
-      description: 'Intensive self-study program covering modern frontend technologies and best practices.',
-      achievements: [
-        'Mastered React ecosystem and modern JavaScript',
-        'Built multiple full-stack applications',
-        'Learned responsive design and accessibility principles'
-      ],
-      tag: 'learning'
-    },
-    {
-      hash: '9a8b7c6',
-      title: 'Open Source Contributions',
-      organization: 'GitHub Community',
+      hash: 'e4f5g6h',
+      title: 'Independent Web Developer',
+      organization: 'Freelance / Personal Projects',
       period: '2023 - Present',
-      description: 'Active contributor to open source projects, focusing on frontend libraries and developer tools.',
+      description: 'Design and development of full-stack web applications, including SecondShelf and SkillSwap.',
       achievements: [
-        'Contributed to React-based UI libraries',
-        'Fixed bugs and improved documentation',
-        'Collaborated with developers worldwide'
+        'Built end-to-end projects using MERN stack',
+        'Implemented JWT auth, image uploads, and admin panels'
       ],
-      tag: 'oss'
+      tag: 'freelance'
     },
     {
-      hash: '5d4e3f2',
-      title: 'Coding Competition Participant',
-      organization: 'Various Platforms',
-      period: '2023 - Present',
-      description: 'Regular participant in coding challenges and competitive programming contests.',
+      hash: 'z9y8x7w',
+      title: 'Event Organiser',
+      organization: 'First Aid Awareness Initiative (Rescue 1122 Collaboration)',
+      period: '2023',
+      description: 'Co-organised public safety seminars and managed logistics for events with 200+ participants.',
       achievements: [
-        'Solved 500+ algorithmic problems',
-        'Achieved top 20% ranking in multiple contests',
-        'Improved problem-solving and optimization skills'
+        'Organised seminars reaching 200+ attendees',
+        'Managed event logistics and coordination'
       ],
-      tag: 'achievements'
+      tag: 'community'
     }
   ];
 

@@ -18,11 +18,11 @@ const About = () => {
 
   const aboutJson = {
     name: "Muhammad Umair",
-    role: "Frontend Developer",
-    education: "BS Software Engineering",
-    location: "Pakistan",
-    passions: ["UI/UX Engineering", "Web Performance", "System Architecture"],
-    bio: "I specialize in React and modern web technologies, always striving to build applications that are not only functional but also provide outstanding user experiences."
+    role: "BS Software Engineering Student & Frontend Developer",
+    education: "BS Software Engineering (PAF-IAST) — CGPA 3.41",
+    location: "Peshawar, Pakistan",
+    passions: ["MERN Stack", "UI/UX", "Web Performance"],
+    bio: "I build full-stack web applications with a focus on user-centered frontend experiences. Experienced with React, Node.js, and modern tooling; seeking opportunities to contribute to real-world projects."
   };
 
   return (

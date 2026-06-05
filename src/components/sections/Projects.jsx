@@ -18,58 +18,31 @@ const Projects = () => {
 
   const projects = [
     {
-      title: 'secondshelf-app',
-      description: 'A comprehensive book exchange platform that connects readers to share and discover new books. Features include user authentication, book listings, exchange requests, and review system.',
-      tech: ['React', 'Node.js', 'MongoDB', 'Express', 'TailwindCSS'],
-      github: 'https://github.com/umair/secondshelf',
-      demo: 'https://secondshelf-demo.com',
-      stars: 12,
-      forks: 3
-    },
-    {
-      title: 'library-mgmt-sys',
-      description: 'A full-stack library management application with features for book cataloging, user management, borrowing/returning books, and generating reports.',
-      tech: ['React', 'MySQL', 'Express', 'Node.js', 'MUI'],
-      github: 'https://github.com/umair/lib-mgmt',
-      demo: 'https://library-mgmt-demo.com',
-      stars: 8,
-      forks: 2
-    },
-    {
-      title: 'cpp-book-bot',
-      description: 'An intelligent chatbot built in C++ that provides book recommendations, information lookup, and conversational interactions about literature.',
-      tech: ['C++', 'NLP', 'Data Structures', 'File I/O'],
-      github: 'https://github.com/umair/cpp-bot',
+      title: 'SecondShelf - Book Exchange Platform',
+      description: 'Community platform for listing, searching, and exchanging second-hand books. Includes JWT auth, image uploads, admin panel, and search.',
+      tech: ['React', 'Node.js', 'Express', 'MongoDB', 'TailwindCSS'],
+      github: 'https://github.com/Muhammad-Umair-80/Booksexchange-website',
       demo: null,
-      stars: 24,
-      forks: 5
-    },
-    {
-      title: 'ecomm-dashboard-admin',
-      description: 'A modern admin dashboard for e-commerce platforms with analytics, inventory management, and order tracking features.',
-      tech: ['React', 'Chart.js', 'TailwindCSS', 'Firebase'],
-      github: 'https://github.com/umair/ecomm-dashboard',
-      demo: 'https://ecommerce-dashboard-demo.com',
-      stars: 15,
-      forks: 1
-    },
-    {
-      title: 'weather-analytics-app',
-      description: 'A responsive weather application with location-based forecasts, interactive maps, and detailed weather analytics.',
-      tech: ['React', 'OpenWeatherAPI', 'Leaflet', 'CSS3'],
-      github: 'https://github.com/umair/weather-app',
-      demo: 'https://weather-app-demo.com',
-      stars: 5,
+      stars: 0,
       forks: 0
     },
     {
-      title: 'collab-task-manager',
-      description: 'A collaborative task management application with real-time updates, team collaboration, and project tracking features.',
-      tech: ['React', 'Socket.io', 'MongoDB', 'Express'],
-      github: 'https://github.com/umair/task-mgmt',
-      demo: 'https://task-mgmt-demo.com',
-      stars: 18,
-      forks: 4
+      title: 'SkillSwap - MERN Skill Exchange',
+      description: 'Peer-to-peer skill-sharing application built with the MERN stack.',
+      tech: ['React', 'Node.js', 'Express', 'MongoDB'],
+      github: 'https://github.com/Muhammad-Umair-80/SkillSwap',
+      demo: null,
+      stars: 0,
+      forks: 0
+    },
+    {
+      title: 'Restaurant Cafe - Responsive Frontend',
+      description: 'Responsive frontend showcasing modern UI patterns, built with React and Vite.',
+      tech: ['React', 'Vite', 'TailwindCSS'],
+      github: 'https://github.com/Muhammad-Umair-80/Resturant-Cafe',
+      demo: null,
+      stars: 0,
+      forks: 0
     },
   ];
 

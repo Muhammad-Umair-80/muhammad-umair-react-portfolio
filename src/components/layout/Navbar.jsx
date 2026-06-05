@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Menu, X, Github, Linkedin, Mail, Terminal } from 'lucide-react';
+import { Menu, X, Github, Linkedin, Mail, Terminal, Download } from 'lucide-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,6 +20,7 @@ const Navbar = () => {
     { name: 'Skills', href: '#skills', key: 's' },
     { name: 'Projects', href: '#projects', key: 'p' },
     { name: 'Experience', href: '#experience', key: 'e' },
+    { name: 'Resume', href: '#resume', key: 'r' },
     { name: 'Contact', href: '#contact', key: 'c' },
   ];
 
@@ -70,6 +71,14 @@ const Navbar = () => {
                 <social.icon size={18} />
               </a>
             ))}
+            <a
+              href="/Muhammad_Umair_Resume%20(2).pdf"
+              download="Muhammad_Umair_Resume.pdf"
+              className="text-muted hover:text-accent transition-colors duration-200 flex items-center gap-2 text-sm"
+              aria-label="Download Resume"
+            >
+              <Download size={16} /> Resume
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -110,6 +119,14 @@ const Navbar = () => {
                     <social.icon size={20} />
                   </a>
                 ))}
+                <a
+                  href="/Muhammad_Umair_Resume%20(2).pdf"
+                  download="Muhammad_Umair_Resume.pdf"
+                  className="text-muted hover:text-accent transition-colors duration-200 flex items-center gap-2"
+                  aria-label="Download Resume"
+                >
+                  <Download size={18} />
+                </a>
               </div>
             </div>
           </div>
