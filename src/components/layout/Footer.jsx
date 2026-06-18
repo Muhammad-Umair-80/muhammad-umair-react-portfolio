@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail, Activity, GitBranch, Cpu, MemoryStick } from 'lucide-react';
+import { Github, Linkedin, Mail, Activity, GitBranch, Cpu, MemoryStick, Code } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
 const Footer = () => {
@@ -17,6 +17,7 @@ const Footer = () => {
     { icon: Github, href: 'https://github.com/Muhammad-Umair-80', label: 'github' },
     { icon: Linkedin, href: 'https://linkedin.com/in/muhammad-umair-3a1737363', label: 'linkedin' },
     { icon: Mail, href: 'mailto:44muhammadumair@gmail.com', label: 'email' },
+    { icon: Code, href: 'https://leetcode.com/u/MuhammadUmair-80/', label: 'leetcode' },
   ];
 
   return (
@@ -62,7 +63,7 @@ const Footer = () => {
                 whileTap={{ scale: 0.9 }}
                 aria-label={social.label}
               >
-                <social.icon size={16} />
+                <social.icon size={18} />
               </motion.a>
             ))}
           </div>

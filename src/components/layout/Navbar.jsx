@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Menu, X, Github, Linkedin, Mail, Terminal, Download } from 'lucide-react';
+import { Menu, X, Github, Linkedin, Mail, Terminal, Download, Code } from 'lucide-react';
 
-const Navbar = () => {
+const   Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -28,6 +28,7 @@ const Navbar = () => {
     { icon: Github, href: 'https://github.com/Muhammad-Umair-80', label: 'GitHub' },
     { icon: Linkedin, href: 'https://linkedin.com/in/muhammad-umair-3a1737363', label: 'LinkedIn' },
     { icon: Mail, href: 'mailto:44muhammadumair@gmail.com', label: 'Email' },
+    { icon: Code, href: 'https://leetcode.com/u/MuhammadUmair-80/', label: 'LeetCode' },
   ];
 
   return (
